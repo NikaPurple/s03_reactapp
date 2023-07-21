@@ -10,13 +10,13 @@ const CIIIdobleestado = () =>{
     }
     return (
         <div>
-        <Fragment>
-            <button onClick={()=>setValor(valor+1)}>Contador1</button>
-            <span>Incremento de contador 1: {valor} </span>
-            <hr/>
-            <button onClick={IncrementoDos}>Contador1</button>
-            <span>Incremento de contador 1: {valor} </span>
-        </Fragment>
+            <Fragment>
+                <button onClick={()=>setValor(valor+1)}>Contador1</button>
+                <span>Incremento de contador 1: {valor} </span>
+                <hr/>
+                <button onClick={IncrementoDos}>Contador2</button>
+                <span>Incremento de contador 2: {num} </span>
+            </Fragment>
         </div>
     )
 }
