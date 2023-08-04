@@ -11,20 +11,12 @@ import CVIImatrizOperaciones from './component/CVIImatrizOperaciones';
 function App() {
   return (
     <div>
-      <h2>Componente 1</h2>
-      <CIcomponente/><br></br>
-      <h2>Componente 2</h2>
-      <CIIcontador /><br></br>
-      <h2>Componente 3</h2>
-      <CIIIdobleestado /><br></br>
-      <h2>Componente 4</h2>
-      <CIVvariable xVariable="Hola soy Nika"/><br></br>
-      <h2>Componente 5</h2>
-      <CVoperador/><br></br>
       <h2>Componente 6</h2>
       <CVImatriz/><br></br>
-      <h2>Componente 7</h2>
-      <CVIImatrizOperaciones/>
+      <h2>Componente 4</h2>
+      <CIVvariable xVariable="Hola soy Nika"/><br></br>
+      <h2>Componente 2</h2>
+      <CIIcontador /><br></br>
 
     </div>
   );
